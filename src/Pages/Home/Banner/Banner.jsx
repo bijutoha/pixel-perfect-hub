@@ -8,7 +8,7 @@ import img4 from "../../../assets/images/banner/carousel-4-Only-Image.png";
 
 const Banner = () => {
   return (
-    <Carousel>
+    <Carousel interval>
       <div>
         <div className="hero min-h-screen bg-[#2D88FF] text-start px-10">
           <div className="flex items-center justify-between flex-col lg:flex-row-reverse">
