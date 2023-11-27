@@ -4,7 +4,7 @@ const ServiceItems = ({item}) => {
     const {service_name, description, image, price}= item
     return (
         <div className="flex justify-between space-x-4">
-            <img className="w-[220px]" src={image} alt="" />
+            <img style={{borderRadius: '0 100px 100px 50px', backgroundColor:'#F8F6FA'}} className="w-[210px]" src={image} alt="" />
             <div>
                 <h3 className="uppercase">{service_name}-------------</h3>
                 <p className="">{description}</p>

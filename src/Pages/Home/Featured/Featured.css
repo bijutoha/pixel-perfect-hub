@@ -1,0 +1,6 @@
+.featured-bg {
+  background-image: url("../../../assets/images/banner/featured.jpg"),
+    linear-gradient(rgba(255, 254, 254, 0.5), rgba(248, 248, 248, 0.5));
+  background-size: cover;
+  background-blend-mode: overlay;
+}
