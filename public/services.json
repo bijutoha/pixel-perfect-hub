@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "642c155b2c4774f05c36eeaa",
+    "service_name": "Clipping Path Services",
+    "description": "Clipping path services involve the precise outlining of an object or subject within an image.",
+    "image": "https://i.ibb.co/3v6swhq/clipping-path-services.png",
+    "category": "popular",
+    "price": 0.39
+  },
+  {
+    "_id": "642c155b2c4774f05c36eeb9",
+    "service_name": "Background removal services",
+    "description": "Background removal services focus on isolating the main subject of an image by eliminating the background.",
+    "image": "https://i.ibb.co/GxHTVcv/Background-removal-services.png",
+    "category": "popular",
+    "price": 0.39
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7c",
+    "service_name": "Image masking services",
+    "description": "Image masking services involve the intricate process of separating complex subjects from their backgrounds.",
+    "image": "https://i.ibb.co/VxmYLvy/image-masking-services.png",
+    "category": "popular",
+    "price": 1.19
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee88",
+    "service_name": "Shadow services",
+    "description": "Shadow services add depth and dimension to product images by expertly creating shadows.",
+    "image": "https://i.ibb.co/r3d3xGy/Shadow-services.png",
+    "category": "offered",
+    "price": 0.25
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee7a",
+    "service_name": "Ghost mannequin services",
+    "description": "Ghost mannequin services are designed for apparel and product photography, where the mannequin is removed, leaving only the garment.",
+    "image": "https://i.ibb.co/rwKkRxW/Ghost-mannequin-services.png",
+    "category": "popular",
+    "price": 0.89
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee8c",
+    "service_name": "Color change services",
+    "description": "Color change services offer the flexibility to alter the color of objects or elements within an image.",
+    "image": "https://i.ibb.co/xsyNN7M/Color-change-services.png",
+    "category": "offered",
+    "price": 0.99
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee94",
+    "service_name": "Photo retouching services",
+    "description": "Photo retouching services involve enhancing and perfecting images to achieve a polished and professional look.",
+    "image": "https://i.ibb.co/x65vq6C/Photo-retouching-services.png",
+    "category": "offered",
+    "price": 0.69
+  },
+  {
+    "_id": "642c155b2c4774f05c36ee9e",
+    "service_name": "Vector conversion services",
+    "description": "Vector conversion services transform raster images into scalable vector graphics.",
+    "image": "https://i.ibb.co/zHjMgf5/Vector-conversion-services.png",
+    "category": "offered",
+    "price": 3.99
+  },
+  {
+    "_id": "642c155b2c4774f05c36eea6",
+    "service_name": "Multi-clipping path services",
+    "description": "Multi-clipping path services involve the creation of multiple paths within an image, each delineating different elements.",
+    "image": "https://i.ibb.co/WKrRjZp/Multi-clipping-path-services.png",
+    "category": "popular",
+    "price": 1.19
+  }
+]
