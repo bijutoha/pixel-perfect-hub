@@ -27,6 +27,8 @@ const Services = () => {
                     ></ServiceItems>)
                 }
             </div>
+
+            <div className="flex justify-center"><button className="btn hover:bg-[#FFD700] hover:text-[#330066] btn-outline border-0 border-b-4 border-[#FFD700] text-[#330066]">View All Services</button></div>
             
         </section>
     );

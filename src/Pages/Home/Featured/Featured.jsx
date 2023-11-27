@@ -7,8 +7,9 @@ const Featured = () => {
     <div className="featured-bg bg-fixed text-white py-10 my-20">
         
       <SectionTitle
+        
         subHeading="read story"
-        heading="Featured Story"
+        featuredText="Featured Story"
       ></SectionTitle>
 
       <div className="md:flex justify-center items-center py-8 px-16 space-x-10 ">
@@ -22,7 +23,7 @@ const Featured = () => {
             day, courtesy of Pixel Perfect Hub.
           </p>
 
-          <button className="btn btn-outline  border-0 border-b-4 border-white text-white mt-4">Read More</button>
+          <button className="btn hover:bg-[#FFD700] hover:text-[#330066] btn-outline border-0 border-b-4 border-[#FFD700] text-white mt-5">View All Services</button>
         </div>
       </div>
     </div>

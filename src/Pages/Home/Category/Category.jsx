@@ -1,6 +1,7 @@
 import "swiper/css";
+import "swiper/css/navigation";
 import "swiper/css/pagination";
-import { Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import slide1 from "../../../assets/images/banner/category-1.png";
@@ -18,13 +19,18 @@ const Category = () => {
         heading={"Our Sample Works"}
       ></SectionTitle>
       <Swiper
-        slidesPerView={4}
+        slidesPerView={5}
         spaceBetween={30}
-        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        navigation={true}
+        
         pagination={{
           clickable: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper mb-20 mx-10"
       >
         <SwiperSlide>
@@ -46,6 +52,12 @@ const Category = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={slide5} alt="" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={slide2} alt="" />
+        </SwiperSlide>
+         <SwiperSlide>
+          <img src={slide3} alt="" />
         </SwiperSlide>
       </Swiper>
     </section>

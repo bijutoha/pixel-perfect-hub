@@ -10,8 +10,10 @@ const ServiceItems = ({item}) => {
                 <p className="">{description}</p>
             </div>
             <p className="text-[#FFD700]">${price}</p>
+
             
         </div>
+           
     );
 };
 
