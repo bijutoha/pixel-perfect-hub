@@ -5,6 +5,7 @@ import logo from '../../../assets/images/icons/Pixel-Perfect-Hub-Logo-white.png'
 const NavBar = () => {
 
     const navOptions = <>
+     <li><Link to='/'>Home</Link></li>
      <li><Link to='/services'>Our Services</Link></li>
      <li><a>Item 2</a></li>
     <li><a>Item 3</a></li>
