@@ -9,7 +9,7 @@ const ServiceItems = ({item}) => {
                 <h3 className="uppercase">{service_name}-------------</h3>
                 <p className="">{description}</p>
             </div>
-            <p className="text-[#FFD700]">${price}</p>
+            <p className="text-[#FFD700]">${price}</p> 
 
             
         </div>
