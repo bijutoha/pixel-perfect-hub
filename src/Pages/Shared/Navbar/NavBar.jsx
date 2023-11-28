@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import logo from '../../../assets/images/icons/Pixel-Perfect-Hub-Logo-white.png';
 
 
 const NavBar = () => {
@@ -21,7 +22,7 @@ const NavBar = () => {
             {navOptions}
       </ul>
     </div>
-    <Link to='/' className="text-xl">Pixel Perfect Hub</Link>
+    <Link to='/' className="text-xl"><img src={logo} alt="" className="w-3/12" /></Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
