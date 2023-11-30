@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import imageMaskingCover from "../../assets/images/banner/Image-masking-service-banner.jpg";
 import backgroundRemovingCover from "../../assets/images/banner/featured-2.jpg";
 import banner from "../../assets/images/banner/services-page-banner.png";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
@@ -38,16 +39,19 @@ const ServicePage = () => {
   const serviceTwo = samples.filter(
     (sample) => sample.service_type === "service_two"
   );
+
+  const serviceThree = samples.filter(sample => sample.service_type === 'service_three')
   return (
     <div>
       <Helmet>
         <title>Pixel Perfect Hub | Photo Editing Services</title>
       </Helmet>
-      <Cover 
-      img={banner} 
-      title={'At Pixel Perfect Hub, consider us your virtual photo magic makers!'}
-      description = "Simply upload your images, and voila! In just a few hours, they're returned to you—pixel-perfect and ready to dazzle. Your desired size, your preferred format—no need to break a sweat. We've got your photo editing worries covered!"
-      
+      <Cover
+        img={banner}
+        title={
+          "At Pixel Perfect Hub, consider us your virtual photo magic makers!"
+        }
+        description="Simply upload your images, and voila! In just a few hours, they're returned to you—pixel-perfect and ready to dazzle. Your desired size, your preferred format—no need to break a sweat. We've got your photo editing worries covered!"
       ></Cover>
       <SectionTitle
         subHeading={"hand-drawn clipping paths"}
@@ -64,18 +68,37 @@ const ServicePage = () => {
 
       {/* Background removal services */}
 
+      <Cover
+        img={backgroundRemovingCover}
+        title="Background removal services"
+        description={
+          "Outsource your background removal and get those tedious, nitty-gritty edits off your plate."
+        }
+      ></Cover>
+
       {backgroundRemoving.map((path) => (
         <div className="flex justify-center" key={path._id}>
           <img className="w-2/12" src={path.image} alt="" />
         </div>
       ))}
-      <ServicePageSamples
-        samples={serviceTwo}
-        title="Background removal services"
-        img={backgroundRemovingCover}
-        description={'Outsource your background removal and get those tedious, nitty-gritty edits off your plate.'}
-      ></ServicePageSamples>
+      <ServicePageSamples samples={serviceTwo}></ServicePageSamples>
 
+      {/* Image Masking services */}
+
+      <Cover
+        img={imageMaskingCover}
+        title="Image masking services"
+        description={
+          "Outsource your background removal and get those tedious, nitty-gritty edits off your plate."
+        }
+      ></Cover>
+
+      {imageMasking.map((mask) => (
+        <div className="flex justify-center" key={mask._id}>
+          <img className="w-2/12" src={mask.image} alt="" />
+        </div>
+      ))}
+      <ServicePageSamples samples={serviceThree}></ServicePageSamples>
     </div>
   );
 };
